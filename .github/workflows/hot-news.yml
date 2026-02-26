@@ -29,7 +29,7 @@ jobs:
             requests              # HTTP 请求
 
       - name: Run hot news fetcher
-        run: python main.py   # ← 替换为你的主脚本名（如 main.py）
+        run: python digest.py   # ← 替换为你的主脚本名（如 main.py）
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
